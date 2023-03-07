@@ -1,0 +1,38 @@
+.header {
+    display: block;
+  }
+
+  .box {
+    /* style */
+    width: 150px;
+    height: 80px;
+/* padding */
+
+padding: 20px 40px 20px 40px; 
+border: 5px solid black;
+/* margin */
+margin: 40px
+
+  * {
+    box-sizing: border-box;
+}
+
+.gallery {
+    width: 300px;
+    border: 1px solid lightblue;
+}
+
+.gallery:hover {
+    border: 1px solid grey;
+}
+
+.gallery img {
+    width: 298px;
+    height: auto;
+}
+
+.description {
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+}
