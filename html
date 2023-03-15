@@ -7,63 +7,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code First Girls</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="contact.html">Portfolio</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
     </ul>
   </nav>
   <body>
-
-    <div class="hero-image">
+<div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:50px">Code First Girls</h1>
-        <p>Web Development Project</p>
-        <!-- change to jump tag ahref -->
-        <button><a href="portfolio.html">Contact</a></button>
+        <h1 style="font-size:50px">Nomad Nat</h1>
+        <h4>Digital Content Creator</h4>
+        <button><a href="https://nataliemcgreevy.files.wordpress.com/2023/02/nomad-nat-service-brochure-2023-.pdf" target="_blank">Service Brochure</a></button>
+          
       </div>
     </div>
-
-    <!-- this will be a carousel -->
-<h2 class="text">Portfolio</h2>
-    <div class=container1>
-      <div class=box>
-        <h3>name</h3>
-        <p>text</p></div>
-
-      <div class=box>
-        <h3>Project 1</h3>
-        <p>text</p></div>
-      <div class=box>
-        <h3>Project 2</h3>
-        <p>text</p></div>
-      <div class=box>
-        <h3>text</h3>
-        <p>text</p></div>
-      <div class=box>
-        <h3>Project 3</h3>
-        <p>text</p></div>
-      <div class=box>
-        <h3>Project 4</h3>
-        <p>text</p></div>
-        </div><div>
-  
-        <div class=container2>
-          <div class=gridbox>
+<div class=container2>
+          <div class=gridbox1>
       <h3>Get in touch</h3>
-</div>
+      <p><i><b>Connecting you to the world through data driven strategy and cost-effective marketing solutions</i></p></b>
+
+      <br/>
+  
+      <form action="action_page.php">
+
+        <label for="fname">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">Your email</label>
+        <input type="text" id="email" name="email" placeholder="Your email...">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form></div>
+
+      
+
      
-    <div class=gridbox>
+    <div class=gridbox2>
     <img src="https://i.ibb.co/rFGDYLt/168313070-10159260793294715-7128931589825728446-n.jpg">
     </div>
     </div>
+
+            <div class="container1">
+           
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+            
+                  <div class="item active">
+                    <img src="https://i.ibb.co/BKhzXbq/328860628-1147729382599215-4836763179966578659-n-1.jpg" alt="Los Angeles" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>Portfolio example</h3>
+                      <p><a href="<a href="portfolio.html">PortfolioMonash From Home</a></p>
+                    </div>
+                  </div>
+            
+                  <div class="item">
+                    <img src="https://i.ibb.co/BKhzXbq/328860628-1147729382599215-4836763179966578659-n-1.jpg" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>Portrfolio Example</h3>
+                      <p>Coming soon</p>
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <img src="https://i.ibb.co/BKhzXbq/328860628-1147729382599215-4836763179966578659-n-1.jpg" alt="New York" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>Portfolio example</h3>
+                      <p>Coming soon</p>
+                    </div>
+                  </div>
+              
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
     </body>
  
   
 
 
     
-  </body>
+
 
 </html>
