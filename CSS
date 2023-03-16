@@ -134,7 +134,8 @@ h2 {
 
 .container2 {
   display: flex;
-  padding: 20px;
+  padding: 10px;
+  background-color: black;
 }
 
 .gridbox1 {
