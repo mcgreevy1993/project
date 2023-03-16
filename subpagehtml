@@ -23,9 +23,11 @@
 
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:50px">Code First Girls</h1>
-        <p>Portfolio Example Page</p>
-        <button><a href="mailto:natalie.mcgreevy@gmail.com">Contact</a></button>
+        <h1 style="font-size:50px">Nomad Nat</h1>
+        <h4>Digital Content Creator</h4>
+        <button><a href="https://nataliemcgreevy.files.wordpress.com/2023/02/nomad-nat-service-brochure-2023-.pdf" target="_blank">Service Brochure</a></button>
+          
+      </div>
       </div>
     </div>
     <div class=container1>
@@ -91,3 +93,25 @@
                 </a>
               </div>
             </div>
+            <footer>
+              <p>Author: Natalie McGreevy</p>
+              <p><a href="mailto:natalie.mcgreevy1993@gmail.com">Natalie.McGreevy1993@gmail.com</a></p>
+            </footer>
+          
+          
+      
+
+
+    
+         
+       
+     
+      
+    
+    
+        
+      </body>
+    
+    </html>
+
+   
